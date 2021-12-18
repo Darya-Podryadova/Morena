@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Morena</title>
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
+	<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+	
+</head>
+<body>
+	<header class="header">
+		<a href="#" class="logo">
+			<h1>Morena</h1>
+		</a>
+		<nav class="navbar">
+			<a href="#Home">Home</a>
+			<a href="#Category">Category</a>
+			<a href="#Gallery">Gallery</a>
+			<a href="#Contacts">Contacts</a>
+		</nav>
+		<div class="icons">
+			<div class="User">
+				<ion-icon name="person-circle-outline"><a href="Login.html
+
+					"></a></ion-icon>
+			</div>
+			<div class="find">
+				<ion-icon name="search-outline"></ion-icon>
+			</div>
+			<div class="shop">
+				<ion-icon name="card-outline"></ion-icon>
+			</div>
+			<div class="menutoogle">
+				<ion-icon name="menu-outline"></ion-icon>
+			</div>
+
+		</div>
+		<div class="search-form">
+			<input type="search" name="search-box" placeholder="Something more...">
+			<label for="search-box">
+				<ion-icon name="search-outline"></ion-icon>
+			</label>
+		</div>
+	</header>
+
+
+	<!---->
+	<!-- Главная секция -->
+
+	<section class="Home" id="Home">
+		<div class="content">
+			<p>Дизайнерское бюро</p>
+			<h1>Morena</h1>
+		</div>
+		<div class="box-container">
+			<img src="img/Interyer.jpg">
+			<img src="img/Yakor.jpg">
+			<img src="img/Kvartira.jpg">
+			<img src="img/Belaya_komnata.jpg">
+		</div>
+		
+		
+	</section>
+
+
+	<section class="Category" id="Category">
+		<h1 class="heading"><span>Мебель</span> и аксессуары </h1>
+		<div class="row">
+		    <div class="box-container">
+				<div class="box">
+					<div class="content">
+						<img src="img/vaza.png">
+					<p>Ваза</p>
+					<div class="price">$25.99</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+			    <div class="box">
+					<div class="content">
+						<img src="img/stol_obedenny.png">
+					<p>Стол</p>
+					<div class="price">$50.54</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+			    <div class="box">
+					<div class="content">
+						<img src="img/shkatulka.png">
+					<p>Шкатулка</p>
+					<div class="price">$10.99</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+			    <div class="box">
+					<div class="content">
+						<img src="img/lyustra.png">
+					<p>Люстра</p>
+					<div class="price">$81.63</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+			    <div class="box">
+					<div class="content">
+						<img src="img/pillows.png">
+					<p>Подушка</p>
+					<div class="price">$12.24</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+			    <div class="box">
+					<div class="content">
+						<img src="img/kover_1.png">
+					<p>Ковер</p>
+					<div class="price">$40.82</div>
+					<a href="#" class="btn">купить</a>
+			         </div>	
+			    </div>
+		    </div>
+		</div>
+		
+	</section>
+
+
+	<section class="Gallery" id="Gallery">
+		<h1 class="heading"><span>Наши</span> Проекты </h1>
+		<div class="row">
+			<div class="gallery swiper mySwiper ">
+				<div class="gallery_list swiper-wrapper">
+					<div class="gallery_item swiper-slide">
+					<img src="img/10.png">
+					<div class="text">
+						<h3 class="title">Проект 1</h3>
+						<p>Описание</p>
+						<a href="#">Подробнее</a>
+					</div>
+
+				</div>
+
+				<div class="gallery_item swiper-slide">
+					<img src="img/11.png">
+					<div class="text">
+						<h3 class="title">Проект 2</h3>
+						<p>Описание</p>
+						<a href="#">Подробнее</a>
+					</div>
+
+				</div>
+
+				<div class="gallery_item swiper-slide">
+					<img src="img/12.png">
+					<div class="text">
+						<h3 class="title">Проект 3</h3>
+						<p>Описание</p>
+						<a href="#">Подробнее</a>
+					</div>
+
+				</div>
+
+				<div class="gallery_item swiper-slide">
+					<img src="img/13.png">
+					<div class="text">
+						<h3 class="title">Проект 4</h3>
+						<p>Описание</p>
+						<a href="#">Подробнее</a>
+					</div>
+
+				</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<section class="Order" id="Order">
+		<h1 class="heading"><span>Заказать</span> сейчас </h1>
+		<div class="container">
+            <div class="wrapper">
+               <div class="title"><span>Логин</span></div>
+               <form action="#">
+                   <div class="row">
+                      <i class="fas fa-user"></i>
+                      <input type="text" placeholder="Email or Phone" required>
+                    </div>
+                    <div class="row">
+                       <i class="fas fa-lock"></i>
+                       <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="pass"><a href="#">Забыли пароль?</a></div>
+                    <div class="row button">
+                       <input type="submit" value="Login">
+                    </div>
+                    <div class="signup-link">Нет аккаунта? <a href="#">Зарегистрируйтесь</a></div>
+                </form>
+            </div>
+        </div>
+	</section>
+	<section class="Cart" id="Cart">
+		<h1 class="heading"><span>Ваша</span> Корзина </h1>
+		<div class="row">
+			<div class="shopping-cart">
+      
+      <div class="title">
+        Shopping cart
+        <div class="Fullprice">Итог: 500$</div>
+        <a href="#" class="">Заказать сейчас</a>
+      </div>
+ 
+      
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"><ion-icon name="trash-outline"></ion-icon></span>
+        </div>
+ 
+        <div class="image">
+          <img src="img/shkatulka.png" alt="" />
+        </div>
+ 
+        <div class="description">
+          <span>Пример 1</span>
+          <span>Описание</span>
+          <span>Цвет </span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <ion-icon name="remove-outline"></ion-icon>
+          </button>
+        </div>
+ 
+        <div class="total-price">$549</div>
+      </div>
+ 
+      
+      <div class="item">
+       <div class="buttons">
+          <span class="delete-btn"><ion-icon name="trash-outline"></ion-icon></span>
+        </div>
+ 
+        <div class="image">
+          <img src="img/pillows.png" alt=""/>
+        </div>
+ 
+        <div class="description">
+			<span>Пример 2</span>
+			<span>Описание</span>
+			<span>Цвет </span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <ion-icon name="remove-outline"></ion-icon>
+          </button>
+        </div>
+ 
+        <div class="total-price">$870</div>
+      </div>
+ 
+      
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"><ion-icon name="trash-outline"></ion-icon></span>
+        </div>
+ 
+        <div class="image">
+          <img src="img/lyustra.png" alt="" />
+        </div>
+ 
+        <div class="description">
+			<span>Пример 3</span>
+			<span>Описание</span>
+			<span>Цвет </span>
+        </div>
+ 
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <ion-icon name="add-outline"></ion-icon>
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <ion-icon name="remove-outline"></ion-icon>
+          </button>
+        </div>
+ 
+        <div class="total-price">$349</div>
+      </div>
+    </div>
+
+			
+		</div>
+	</section>
+
+
+	<section class="Contacts" id="Contacts">
+		<h1 class="heading"><span>Наши</span> контакты </h1>
+		<div class="row">
+
+			<div class="content">
+				<div class="info">
+					<h3>Россия</h3>
+			        <p>Челябинск<br>пр. Ленина, 81</p>
+			        <p>8 (519)-954-9333</p>
+			        <p>info@MorenaShop.com</p>
+			        <a href="#">INSTAGRAM</a>
+			        <a href="#">FACEBOOK</a>
+				</div>
+				<div class="calend">
+					<p>Пн:  закрыто<br>
+					  Вт: 10:00 - 20:00<br>
+				      Ср:  10:00 - 20:00<br>
+			         Чт:  10:00 - 20:00<br>
+		             Пт:  10:00 - 20:00<br>
+	                 Сб:  10:00 - 17:00<br>
+                     Вс:  10:00 - 17:00</p>
+			       
+				</div>
+			</div>
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2279.389068819066!2d61.371058915868616!3d55.158968880398724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c592b8ea52ec37%3A0x7849833c9bad0985!2z0L_RgC4g0JvQtdC90LjQvdCwLCA4MSwg0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4sIDQ1NDA4MA!5e0!3m2!1sru!2sru!4v1639564184471!5m2!1sru!2sru" width="600" allowfullscreen="" loading="lazy"></iframe>
+
+			
+		
+		</div>
+		
+		
+	</section>
+	<section class="footer">
+		<div class="shar">
+			<a href="#">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-vk"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="#">
+				<i class="fab fa-youtube"></i>
+			</a>
+		</div>
+
+		<div class="links">
+			<a href="#Home">Home</a>
+			<a href="#Category">Category</a>
+			<a href="#Gallery">Gallery</a>
+			<a href="#Contacts">Contacts</a>
+		</div>
+
+		<div class="credit">
+			создано <span>Daxaxaxa</span> | Все права защищены
+		</div>
+	</section>
+
+
+	<script >
+		let navbar = document.querySelector('.navbar');
+          document.querySelector('.menutoogle').onclick = () =>{
+	        navbar.classList.toggle('active');
+	        seacrhForm.classList.remove('active');
+          	 
+              }
+
+          let seacrhForm = document.querySelector('.search-form');
+          document.querySelector('.find').onclick = () =>{
+	        seacrhForm.classList.toggle('active');
+	 
+	        navbar.classList.remove('active');
+              }
+            window.onscroll = () =>{
+          	navbar.classList.remove('active');
+          	 seacrhForm.classList.remove('active');
+          	
+          }
+	</script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/min.js"></script>
+	<script src="https://kit.fontawesome.com/558b50b95a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
